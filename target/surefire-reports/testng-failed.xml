@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FullstackFramework]" parallel="methods">
+  <listeners>
+    <listener class-name="testUnit.ListenToMyTestCases"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Selenium_Advanced_Code(failed)" parallel="methods">
+    <classes>
+      <class name="testUnit.LogInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logIntest_In_toKohls" invocation-numbers="8 9"/>
+          <include name="testDown"/>
+          <include name="setExtent"/>
+          <include name="setUp"/>
+          <include name="reading_PropertyFile"/>
+          <include name="getWebSite"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testUnit.LogInTest -->
+    </classes>
+  </test> <!-- Selenium_Advanced_Code(failed) -->
+</suite> <!-- Failed suite [FullstackFramework] -->

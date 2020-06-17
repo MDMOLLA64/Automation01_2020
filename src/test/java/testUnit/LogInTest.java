@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -36,7 +37,7 @@ public class LogInTest extends BaseTest {
 		// Profilelogin
 	}
 
-	@Test(dataProviderClass = ReadDataProvider.class, dataProvider = "login")
+	@Test(dataProvider = "login")
 	public void logIntest_In_toKohls(Object userId, Object Password) {
 
 		extentTest = extent.startTest("logIntest");
@@ -52,18 +53,10 @@ public class LogInTest extends BaseTest {
 		driver.findElement(By.id("Profilelogin")).click();
 		loger.info("clicked on submitt button");
 
-		// Profilelogin
-		System.setProperty("webdriver.chrome.driver", "/Users/mdmolla/Downloads/chromedriver");
-
-		ChromeDriver driver = new ChromeDriver();
-
-		driver.get("https://www.kohls.com/myaccount/kohls_login.jsp");
-		driver.findElement(By.id("kiosk_loginEmail")).sendKeys(userId.toString());
-		driver.findElement(By.id("kiosk_loginPassword")).sendKeys(Password.toString());
 	}
 
 	@DataProvider(name = "login")
-	public Object[][] readXL() {
+	public Object[][] readXL() throws Exception {
 		FileInputStream f = null;
 		Object[][] data = null;
 		try {
@@ -98,6 +91,11 @@ public class LogInTest extends BaseTest {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} finally {
+			if (f != null) {
+				f.close();
+			}
+
 		}
 
 		return data;

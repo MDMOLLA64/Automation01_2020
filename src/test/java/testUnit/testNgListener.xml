@@ -11,6 +11,7 @@
 		<classes>
 			<!-- <class name="com.kohls.test.CompareToObject" /> -->
 			<class name="testUnit.SmokeTest" />
+			<class name="testUnit.LogInTest" />
 		</classes>
 
 	</test>

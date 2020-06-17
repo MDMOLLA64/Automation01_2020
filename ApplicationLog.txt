@@ -875,3 +875,400 @@
 2020-06-16 21:59:03,045 INFO  [BaseTest] test case pass : LogInTest 
 2020-06-16 21:59:03,045 INFO  [BaseTest] extent report ended 
 2020-06-16 21:59:06,181 INFO  [BaseTest] browser closed 
+2020-06-17 00:12:01,748 INFO  [BaseTest] property file reading  started  
+2020-06-17 00:12:01,759 INFO  [BaseTest] got the browser name from Property file  
+2020-06-17 00:12:03,640 INFO  [BaseTest] blank chrome browser launched 
+2020-06-17 00:12:03,663 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:12:17,218 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:12:17,427 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:12:17,491 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:12:17,744 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:12:23,324 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 00:12:23,326 INFO  [BaseTest] extent report ended 
+2020-06-17 00:12:23,328 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:12:27,035 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:12:27,348 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:12:27,401 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:12:27,564 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:12:32,413 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 00:12:32,415 INFO  [BaseTest] extent report ended 
+2020-06-17 00:12:35,553 INFO  [BaseTest] browser closed 
+2020-06-17 00:37:02,283 INFO  [BaseTest] property file reading  started  
+2020-06-17 00:37:02,290 INFO  [BaseTest] got the browser name from Property file  
+2020-06-17 00:37:04,641 INFO  [BaseTest] blank chrome browser launched 
+2020-06-17 00:37:04,670 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:37:07,073 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:37:08,383 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:37:08,384 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:37:08,386 INFO  [BaseTest] extent report ended 
+2020-06-17 00:37:08,388 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:37:10,727 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:37:10,965 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:37:11,175 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:37:11,297 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:37:16,670 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:37:16,671 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:37:16,671 INFO  [BaseTest] extent report ended 
+2020-06-17 00:37:19,490 INFO  [BaseTest] browser closed 
+2020-06-17 00:49:29,803 INFO  [BaseTest] property file reading  started  
+2020-06-17 00:49:29,811 INFO  [BaseTest] got the browser name from Property file  
+2020-06-17 00:49:31,640 INFO  [BaseTest] blank chrome browser launched 
+2020-06-17 00:49:32,304 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:49:34,287 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:49:35,416 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:49:35,417 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:49:35,418 INFO  [BaseTest] extent report ended 
+2020-06-17 00:49:35,420 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:49:36,413 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:49:37,278 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:49:37,279 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:49:37,279 INFO  [BaseTest] extent report ended 
+2020-06-17 00:49:37,280 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:49:38,594 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:49:39,296 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:49:39,446 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:49:39,649 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:49:57,768 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:49:57,775 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:49:57,775 INFO  [BaseTest] extent report ended 
+2020-06-17 00:49:57,777 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:49:59,952 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:50:00,887 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:50:01,130 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:50:01,278 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:50:09,586 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:50:09,587 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:50:09,587 INFO  [BaseTest] extent report ended 
+2020-06-17 00:50:09,589 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:50:12,901 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:50:14,177 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:50:14,388 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:50:14,836 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:50:25,504 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:50:25,506 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:50:25,506 INFO  [BaseTest] extent report ended 
+2020-06-17 00:50:25,511 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:50:31,279 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:50:32,363 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:50:32,686 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:50:33,200 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:50:52,469 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:50:52,469 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:50:52,470 INFO  [BaseTest] extent report ended 
+2020-06-17 00:50:52,472 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:50:54,794 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:50:55,590 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:50:55,797 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:50:56,166 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:51:06,841 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:51:06,842 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:51:06,842 INFO  [BaseTest] extent report ended 
+2020-06-17 00:51:06,844 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:51:12,178 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:51:13,839 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:51:13,839 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:51:13,839 INFO  [BaseTest] extent report ended 
+2020-06-17 00:51:13,843 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:51:15,783 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:51:16,825 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 00:51:17,099 INFO  [BaseTest] password typed in password box 
+2020-06-17 00:51:17,464 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 00:51:29,423 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:51:29,445 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:51:29,446 INFO  [BaseTest] extent report ended 
+2020-06-17 00:51:29,448 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 00:51:38,400 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 00:51:39,358 INFO  [BaseTest] screen shot has taken 
+2020-06-17 00:51:39,358 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 00:51:39,359 INFO  [BaseTest] extent report ended 
+2020-06-17 00:51:42,921 INFO  [BaseTest] browser closed 
+2020-06-17 01:26:09,238 INFO  [BaseTest] property file reading  started  
+2020-06-17 01:26:09,247 INFO  [BaseTest] got the browser name from Property file  
+2020-06-17 01:26:12,079 INFO  [BaseTest] blank chrome browser launched 
+2020-06-17 01:26:14,250 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:26:17,592 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:26:18,084 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:26:18,584 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:26:18,867 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:26:49,929 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:26:49,931 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:26:49,932 INFO  [BaseTest] extent report ended 
+2020-06-17 01:26:49,933 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:26:52,417 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:26:53,280 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:26:53,531 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:26:53,747 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:26:54,247 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:26:54,247 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:26:54,247 INFO  [BaseTest] extent report ended 
+2020-06-17 01:26:54,248 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:26:56,218 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:26:57,018 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:26:57,221 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:26:57,480 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:26:57,925 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:26:57,925 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:26:57,925 INFO  [BaseTest] extent report ended 
+2020-06-17 01:26:57,927 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:26:59,531 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:27:01,304 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:27:01,305 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:27:01,305 INFO  [BaseTest] extent report ended 
+2020-06-17 01:27:01,307 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:27:03,396 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:27:04,246 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:27:04,433 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:27:04,667 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:27:05,117 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:27:05,118 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:27:05,118 INFO  [BaseTest] extent report ended 
+2020-06-17 01:27:05,120 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:27:07,349 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:27:07,922 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:27:07,923 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:27:07,923 INFO  [BaseTest] extent report ended 
+2020-06-17 01:27:07,924 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:27:09,863 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:27:10,671 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:27:10,886 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:27:11,031 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:27:11,464 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:27:11,464 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:27:11,465 INFO  [BaseTest] extent report ended 
+2020-06-17 01:27:11,466 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:27:13,896 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:27:14,950 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:27:15,171 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:27:15,467 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:27:16,119 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:27:16,120 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:27:16,120 INFO  [BaseTest] extent report ended 
+2020-06-17 01:27:16,121 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:27:19,515 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:27:20,323 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:27:20,323 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:27:20,324 INFO  [BaseTest] extent report ended 
+2020-06-17 01:27:20,325 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:27:23,100 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:27:24,174 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:27:24,175 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:27:24,175 INFO  [BaseTest] extent report ended 
+2020-06-17 01:27:27,470 INFO  [BaseTest] browser closed 
+2020-06-17 01:29:11,220 INFO  [BaseTest] property file reading  started  
+2020-06-17 01:29:11,226 INFO  [BaseTest] got the browser name from Property file  
+2020-06-17 01:29:12,828 INFO  [BaseTest] blank chrome browser launched 
+2020-06-17 01:29:13,524 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:16,669 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:17,041 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:29:17,167 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:29:17,361 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:29:22,796 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:22,797 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:22,806 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:22,809 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:24,556 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:25,155 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:25,155 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:25,155 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:25,158 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:26,245 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:27,113 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:27,114 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:27,114 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:27,117 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:29,022 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:29,542 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:29:29,719 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:29:29,940 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:29:30,408 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:30,409 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:30,409 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:30,410 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:32,443 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:33,270 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:29:33,495 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:29:33,626 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:29:34,056 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:34,057 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:34,057 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:34,058 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:35,659 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:37,118 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:37,119 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:37,119 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:37,123 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:38,892 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:40,013 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:29:40,136 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:29:45,432 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:29:46,252 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:46,252 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:46,252 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:46,254 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:48,017 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:49,347 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:29:49,442 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:29:54,590 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:29:55,404 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:55,404 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:55,405 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:55,406 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:29:57,055 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:29:57,786 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:29:58,211 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:29:58,450 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:29:58,965 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:29:58,971 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:29:58,974 INFO  [BaseTest] extent report ended 
+2020-06-17 01:29:58,975 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:30:01,409 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:30:02,703 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:30:02,703 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:30:02,704 INFO  [BaseTest] extent report ended 
+2020-06-17 01:30:05,958 INFO  [BaseTest] browser closed 
+2020-06-17 01:31:21,103 INFO  [BaseTest] property file reading  started  
+2020-06-17 01:31:21,109 INFO  [BaseTest] got the browser name from Property file  
+2020-06-17 01:31:22,869 INFO  [BaseTest] blank chrome browser launched 
+2020-06-17 01:31:23,518 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:31:27,486 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:31:27,978 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:31:28,093 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:31:28,288 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:31:28,291 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:31:28,294 INFO  [BaseTest] extent report ended 
+2020-06-17 01:31:28,295 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:31:30,184 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:31:30,690 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:31:30,824 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:31:30,961 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:31:30,963 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:31:30,965 INFO  [BaseTest] extent report ended 
+2020-06-17 01:31:30,967 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:31:32,927 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:31:34,020 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:31:34,021 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:31:34,021 INFO  [BaseTest] extent report ended 
+2020-06-17 01:31:34,026 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:31:35,676 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:31:36,476 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:31:36,578 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:31:36,776 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:31:36,777 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:31:36,778 INFO  [BaseTest] extent report ended 
+2020-06-17 01:31:36,780 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:31:58,059 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:31:59,780 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:31:59,780 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:31:59,781 INFO  [BaseTest] extent report ended 
+2020-06-17 01:31:59,783 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:32:03,917 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:32:05,356 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:32:05,356 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:32:05,357 INFO  [BaseTest] extent report ended 
+2020-06-17 01:32:05,364 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:32:07,703 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:32:08,301 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:32:08,421 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:32:08,635 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:32:08,637 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:32:08,637 INFO  [BaseTest] extent report ended 
+2020-06-17 01:32:08,639 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:32:10,400 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:32:11,103 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:32:11,252 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:32:11,473 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:32:11,474 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:32:11,475 INFO  [BaseTest] extent report ended 
+2020-06-17 01:32:11,476 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:32:13,943 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:32:14,760 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:32:14,760 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:32:14,761 INFO  [BaseTest] extent report ended 
+2020-06-17 01:32:14,762 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:32:17,110 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:32:17,834 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:32:17,834 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:32:17,834 INFO  [BaseTest] extent report ended 
+2020-06-17 01:32:21,092 INFO  [BaseTest] browser closed 
+2020-06-17 01:46:31,155 INFO  [BaseTest] property file reading  started  
+2020-06-17 01:46:31,164 INFO  [BaseTest] got the browser name from Property file  
+2020-06-17 01:46:32,913 INFO  [BaseTest] blank chrome browser launched 
+2020-06-17 01:46:33,399 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:46:41,162 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:46:41,635 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:46:41,739 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:46:41,932 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:46:41,934 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:46:41,937 INFO  [BaseTest] extent report ended 
+2020-06-17 01:46:41,938 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:46:43,743 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:46:44,650 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:46:44,831 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:46:45,031 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:46:45,032 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:46:45,033 INFO  [BaseTest] extent report ended 
+2020-06-17 01:46:45,034 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:46:46,423 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:46:47,128 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:46:47,245 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:46:47,456 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:46:47,456 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:46:47,457 INFO  [BaseTest] extent report ended 
+2020-06-17 01:46:47,458 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:46:49,421 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:46:50,009 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:46:50,308 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:46:50,458 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:46:50,458 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:46:50,458 INFO  [BaseTest] extent report ended 
+2020-06-17 01:46:50,462 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:46:52,196 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:46:52,770 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:46:52,870 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:46:53,032 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:46:53,033 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:46:53,034 INFO  [BaseTest] extent report ended 
+2020-06-17 01:46:53,035 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:46:54,935 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:46:55,635 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:46:55,762 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:46:55,902 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:46:55,903 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:46:55,904 INFO  [BaseTest] extent report ended 
+2020-06-17 01:46:55,905 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:46:57,615 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:46:58,078 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:46:58,197 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:46:58,353 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:46:58,355 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:46:58,355 INFO  [BaseTest] extent report ended 
+2020-06-17 01:46:58,355 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:47:00,351 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:47:01,075 INFO  [BaseTest] Email typed in Email box 
+2020-06-17 01:47:01,174 INFO  [BaseTest] password typed in password box 
+2020-06-17 01:47:01,341 INFO  [BaseTest] clicked on submitt button 
+2020-06-17 01:47:01,342 INFO  [BaseTest] test case pass : logIntest_In_toKohls 
+2020-06-17 01:47:01,342 INFO  [BaseTest] extent report ended 
+2020-06-17 01:47:01,343 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:47:03,429 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:47:05,397 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:47:05,398 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:47:05,398 INFO  [BaseTest] extent report ended 
+2020-06-17 01:47:05,399 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:47:07,090 INFO  [BaseTest] landed into kohls login page 
+2020-06-17 01:47:08,646 INFO  [BaseTest] screen shot has taken 
+2020-06-17 01:47:08,646 INFO  [BaseTest] screen shot has attached to extents reports 
+2020-06-17 01:47:08,647 INFO  [BaseTest] extent report ended 
+2020-06-17 01:47:11,850 INFO  [BaseTest] browser closed 
+2020-06-17 01:47:11,853 INFO  [BaseTest] got the browser name from Property file  
+2020-06-17 01:47:12,949 INFO  [BaseTest] blank chrome browser launched 
+2020-06-17 01:47:12,950 INFO  [BaseTest] extentReport start for logIntest02 
+2020-06-17 01:47:20,777 INFO  [BaseTest] test case pass : logIntest02 
+2020-06-17 01:47:20,778 INFO  [BaseTest] extent report ended 
+2020-06-17 01:47:20,779 INFO  [BaseTest]  extentReport start for logIntest01 
+2020-06-17 01:47:27,827 INFO  [BaseTest] test case pass : logIntest01 
+2020-06-17 01:47:27,827 INFO  [BaseTest] extent report ended 
+2020-06-17 01:47:27,829 INFO  [BaseTest] extentReport start for logIntest 
+2020-06-17 01:47:49,176 INFO  [BaseTest] test case pass : logIntest 
+2020-06-17 01:47:49,177 INFO  [BaseTest] extent report ended 
+2020-06-17 01:47:52,468 INFO  [BaseTest] browser closed 

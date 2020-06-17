@@ -1,4 +1,6 @@
-testUnit/ListenToMyTestCases.class
+testUnit/LogInValidationTest.class
 testUnit/SmokeTest.class
 testUnit/ExtentReporterNG.class
+testUnit/LogInTest.class
+testUnit/ListenToMyTestCases.class
 testUnit/BaseTest.class
