@@ -5,11 +5,17 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -41,7 +47,7 @@ public class LogInTest extends BaseTest {
 	public void logIntest_In_toKohls(Object userId, Object Password) {
 
 		extentTest = extent.startTest("logIntest");
-		// loger = Logger.getLogger(BaseTest.class);
+		loger = Logger.getLogger(LogInTest.class);
 		loger.info("extentReport start for logIntest");
 		driver.get(prop.getProperty("kohlsLogInPageUrl"));
 		loger.info("landed into kohls login page");
@@ -100,5 +106,6 @@ public class LogInTest extends BaseTest {
 
 		return data;
 	}
+
 
 }
