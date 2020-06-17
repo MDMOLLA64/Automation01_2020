@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FullstackFramework" duration-ms="34432" started-at="2020-06-16T22:39:10Z" finished-at="2020-06-16T22:39:45Z">
+    <groups>
+    </groups>
+    <test name="Selenium_Advanced_Code" duration-ms="34432" started-at="2020-06-16T22:39:10Z" finished-at="2020-06-16T22:39:45Z">
+      <class name="testUnit.SmokeTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testUnit.SmokeTest@7f560810]" name="setExtent" is-config="true" duration-ms="109" started-at="2020-06-16T22:39:10Z" finished-at="2020-06-16T22:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="reading_PropertyFile()[pri:0, instance:testUnit.SmokeTest@7f560810]" name="reading_PropertyFile" is-config="true" duration-ms="33" started-at="2020-06-16T22:39:10Z" finished-at="2020-06-16T22:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reading_PropertyFile -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testUnit.SmokeTest@7f560810]" name="setUp" is-config="true" duration-ms="1872" started-at="2020-06-16T22:39:10Z" finished-at="2020-06-16T22:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIntest02()[pri:0, instance:testUnit.SmokeTest@7f560810]" name="logIntest02" duration-ms="25122" started-at="2020-06-16T22:39:12Z" finished-at="2020-06-16T22:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIntest02 -->
+        <test-method status="PASS" signature="logIntest01()[pri:0, instance:testUnit.SmokeTest@7f560810]" name="logIntest01" duration-ms="12079" started-at="2020-06-16T22:39:12Z" finished-at="2020-06-16T22:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIntest01 -->
+        <test-method status="PASS" signature="logIntest()[pri:0, instance:testUnit.SmokeTest@7f560810]" name="logIntest" duration-ms="29266" started-at="2020-06-16T22:39:12Z" finished-at="2020-06-16T22:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIntest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testUnit.SmokeTest@7f560810]" name="tearDown" is-config="true" duration-ms="6" started-at="2020-06-16T22:39:24Z" finished-at="2020-06-16T22:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logIntest01 status=SUCCESS method=SmokeTest.logIntest01()[pri:0, instance:testUnit.SmokeTest@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testUnit.SmokeTest@7f560810]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-16T22:39:37Z" finished-at="2020-06-16T22:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logIntest02 status=SUCCESS method=SmokeTest.logIntest02()[pri:0, instance:testUnit.SmokeTest@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testUnit.SmokeTest@7f560810]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-16T22:39:41Z" finished-at="2020-06-16T22:39:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logIntest status=SUCCESS method=SmokeTest.logIntest()[pri:0, instance:testUnit.SmokeTest@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:testUnit.SmokeTest@7f560810]" name="testDown" is-config="true" duration-ms="3180" started-at="2020-06-16T22:39:41Z" finished-at="2020-06-16T22:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testUnit.SmokeTest@7f560810]" name="endReport" is-config="true" duration-ms="326" started-at="2020-06-16T22:39:45Z" finished-at="2020-06-16T22:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testUnit.SmokeTest -->
+    </test> <!-- Selenium_Advanced_Code -->
+  </suite> <!-- FullstackFramework -->
+</testng-results>

@@ -1,0 +1,69 @@
+step 1 : add dependency in pom.xml file 		
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		
+		
+step 2: two ways we can configure  
+          1. property file 
+                        2. xml file
+
+  to configure in xml file create log4j.xml file in project label  then add 
+  
+  
+  
+  
+  
+   <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration
+	xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+	<appender name="fileAppender"
+		class="org.apache.log4j.FileAppender">
+		<param name="Threshold" value="INFO" />
+		<param name="File" value="ApplicationLog.txt" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] %m %n" />
+		</layout>
+	</appender>
+	<appender name="stdout"
+		class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- Pattern to output the caller's file name and line number -->
+			<param name="ConversionPattern"
+				value="%5p %d[mm:ss] (%F:%M:%L) - %m%n" />
+		</layout>
+	</appender>
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="fileAppender" />
+		<appender-ref ref="stdout" />
+	</root>
+</log4j:configuration>
+
+
+
+
+
+
+step 3: to generate log file  there we mention the file name 
+
+	<param name="File" value="ApplicationLog.txt" /> here file name will be ApplicationLog.txt
+	
+	step 4:
+	 Logger loger = Logger.getLogger(BaseTest.class);
+		DOMConfigurator.configure("log4j.xml");
+		
+		
+		now with the referenc of loger we can use some methods 
+		like >>>>
+		1.info 
+		2.warn
+		3.debug
+		4.
+
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="xml_for " parallel="methods">
+	<!-- if parallel=false means crossbrowsing //parallel =test or methods, 
+		or class then parallel -->
+	<listeners>
+	<!-- 	<listener class-name="testUnit.ListenToMyTestCases"></listener> -->
+		<listener class-name="testUnit.ExtentReporterNG"></listener>
+	</listeners>
+
+	<test name="common">
+		<!-- <parameter name="browser" value="chrome"></parameter> -->
+		<classes>
+			<class name="testUnit.SmokeTest">
+				<methods>
+					<include name="logIntest"></include>
+					<include name="logIntest01"></include>
+					<include name="logIntest02"></include>
+				</methods>
+			</class>
+		</classes>
+
+
+	</test>
+
+
+
+
+
+
+
+
+
+</suite>
