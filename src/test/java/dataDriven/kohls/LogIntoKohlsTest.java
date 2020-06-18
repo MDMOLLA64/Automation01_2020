@@ -9,42 +9,27 @@ import org.apache.log4j.Logger;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import logInPage.LogInPage;
 import testUnit.BaseTest;
-import utilies.Helper;
 
-public class LogInJustUsingData extends BaseTest {
-
+public class LogIntoKohlsTest extends BaseTest {
 	@Test(dataProvider = "login")
-	public void EndToEndTestUsingData(Object username, Object password) {
-
-		extentTest = extent.startTest("EndToEndTestUsingData");
+	public void loginTest(Object username, Object password) {
+		extentTest = extent.startTest("loginTest");
 		loger.info("extentReport start for logIntest");
-		loger = Logger.getLogger(LogInJustUsingData.class);
+		loger = Logger.getLogger(LogIntoKohlsTest.class);
 
-		driver.get(prop.getProperty("kohlsLogInPageUrl"));
-		loger.debug("landed in logIn page");
-		driver.findElement(By.id("kiosk_loginEmail")).sendKeys(username.toString());
-		loger.info("typed  email on input box ");
-		driver.findElement(By.id("kiosk_loginPassword")).sendKeys(password.toString());
-		driver.findElement(By.id("kiosk_loginEmail")).sendKeys(username.toString());
-		loger.info("typed  pass on input box ");
-		driver.findElement(By.id("Profilelogin")).click();
-		loger.info("clicked on sign in button");
-		// String usertext = driver
-		// .findElement(By.xpath("//a[@class='utility-item-link account
-		// utility-nav-wallet-svg']/div")).getText();
-		// loger.info(usertext);
-
-		// .click();
-		Helper.clickOnElement(driver.findElement(By.xpath("//div[@class='is-signed-in']")));
-		loger.info("clicked on account in button");
-		Helper.clickOnElement(driver.findElement(By.xpath("//a[contains(text(),'Sign Out')]")));
-		loger.info("clicked on signOut in button");
-		// .click();
+		LogInPage loginpage = new LogInPage(driver);
+		// loginpage.getBaseURL();
+		loginpage.typeEmail(username.toString());
+		loginpage.typePasword(password.toString());
+		loginpage.clickONSignInButton();
+		
+		//driver.navigate().back();
+		//driver.navigate().forward();
 	}
 
 	@DataProvider(name = "login")

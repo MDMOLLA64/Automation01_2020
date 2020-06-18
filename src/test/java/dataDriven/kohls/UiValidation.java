@@ -117,7 +117,7 @@ public class UiValidation extends BaseTest {
 		return data;
 	}
 
-	@Test(dataProvider = "singleData")
+	@Test(dataProvider = "singleData" ,enabled = false)
 	public void NnumberIndexfromxl(Object username, Object password) {
 
 //		extentTest = extent.startTest("NnumberIndexfromxl");

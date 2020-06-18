@@ -103,6 +103,8 @@ public class BaseTest {
 			System.setProperty("webdriver.safari.driver", "/usr/bin/safaridriver");
 			driver = new SafariDriver();
 		}
+		
+		driver.get(prop.getProperty("kohlsLogInPageUrl"));
 //		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 //		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
