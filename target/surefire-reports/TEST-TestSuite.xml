@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="82.175" tests="13" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="69.581" tests="13" errors="0" skipped="0" failures="10">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/mdmolla/eclipse-workspace/Automation01/target/surefire/surefirebooter2274395281898963480.jar /Users/mdmolla/eclipse-workspace/Automation01/target/surefire 2020-06-17T01-46-29_981-jvmRun1 surefire4325299656487965458tmp surefire_07168135104310442397tmp"/>
+    <property name="sun.java.command" value="/Users/mdmolla/eclipse-workspace/Automation01/target/surefire/surefirebooter2654950337788277239.jar /Users/mdmolla/eclipse-workspace/Automation01/target/surefire 2020-06-17T22-32-15_704-jvmRun1 surefire1872244388748080493tmp surefire_0318226804495556358tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/mdmolla/eclipse-workspace/Automation01/target/test-classes:/Users/mdmolla/eclipse-workspace/Automation01/target/classes:/Users/mdmolla/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/mdmolla/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/mdmolla/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/mdmolla/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/mdmolla/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/mdmolla/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/mdmolla/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mdmolla/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/mdmolla/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/mdmolla/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/mdmolla/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/mdmolla/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/mdmolla/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/mdmolla/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/mdmolla/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/mdmolla/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/mdmolla/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/mdmolla/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/mdmolla/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/mdmolla/.m2/repository/com/aventstack/extentreports/4.1.5/extentreports-4.1.5.jar:/Users/mdmolla/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/mdmolla/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/mdmolla/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/mdmolla/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/mdmolla/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/mdmolla/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/mdmolla/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/mdmolla/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/mdmolla/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/mdmolla/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/mdmolla/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/mdmolla/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/mdmolla/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/mdmolla/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/mdmolla/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/mdmolla/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/mdmolla/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/mdmolla/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/mdmolla/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/mdmolla/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mdmolla/eclipse-workspace/Automation01/target/surefire/surefirebooter2274395281898963480.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mdmolla/eclipse-workspace/Automation01/target/surefire/surefirebooter2654950337788277239.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -62,45 +62,158 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="8.543"/>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="3.098"/>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.419"/>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="3"/>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.572"/>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.867"/>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.449"/>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.986"/>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="3.045">
-    <failure message="invalid element state: Element is not currently interactable and may not be manipulated&#10;  (Session info: chrome=83.0.4103.106)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Mds-MacBook-Pro.home&apos;, ip: &apos;fe80:0:0:0:1874:8bbc:11df:1ffa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}&#10;Session ID: 1ee5e916575e8f462a731f5f77ae3168" type="org.openqa.selenium.InvalidElementStateException"><![CDATA[org.openqa.selenium.InvalidElementStateException: 
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="3.401">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:55)
+]]></failure>
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:16,739[mm:ss] (BaseTest.java:reading_PropertyFile:64) - property file reading  started 
+ INFO 2020-06-17 22:32:16,749[mm:ss] (BaseTest.java:setUp:77) - got the browser name from Property file 
+ INFO 2020-06-17 22:32:18,849[mm:ss] (BaseTest.java:setUp:84) - blank chrome browser launched
+ INFO 2020-06-17 22:32:19,376[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:21,594[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 15742
+Only local connections are allowed.
+Jun 17, 2020 10:32:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.117">
+    <failure message="invalid element state: Element is not currently interactable and may not be manipulated&#10;  (Session info: chrome=83.0.4103.106)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Mds-MacBook-Pro.home&apos;, ip: &apos;fe80:0:0:0:1c9e:b5f5:f39c:ad56%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}&#10;Session ID: c7f241467ab9e0e7836b1cbb41759822" type="org.openqa.selenium.InvalidElementStateException"><![CDATA[org.openqa.selenium.InvalidElementStateException: 
 invalid element state: Element is not currently interactable and may not be manipulated
   (Session info: chrome=83.0.4103.106)
   (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:1874:8bbc:11df:1ffa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:1c9e:b5f5:f39c:ad56%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
-Session ID: 1ee5e916575e8f462a731f5f77ae3168
-	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:48)
+Session ID: c7f241467ab9e0e7836b1cbb41759822
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:54)
 ]]></failure>
-    <system-out><![CDATA[ INFO 2020-06-17 01:47:01,342[mm:ss] (BaseTest.java:tearDown:144) - test case pass : logIntest_In_toKohls
- INFO 2020-06-17 01:47:01,342[mm:ss] (BaseTest.java:tearDown:148) - extent report ended
- INFO 2020-06-17 01:47:01,343[mm:ss] (LogInTest.java:logIntest_In_toKohls:45) - extentReport start for logIntest
- INFO 2020-06-17 01:47:03,429[mm:ss] (LogInTest.java:logIntest_In_toKohls:47) - landed into kohls login page
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:23,729[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:23,730[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:23,732[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:23,733[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:25,070[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
 ]]></system-out>
   </testcase>
-  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.411">
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.287">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:49)
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:55)
 ]]></failure>
-    <system-out><![CDATA[ INFO 2020-06-17 01:47:05,397[mm:ss] (BaseTest.java:tearDown:132) - screen shot has taken
- INFO 2020-06-17 01:47:05,398[mm:ss] (BaseTest.java:tearDown:135) - screen shot has attached to extents reports
- INFO 2020-06-17 01:47:05,398[mm:ss] (BaseTest.java:tearDown:148) - extent report ended
- INFO 2020-06-17 01:47:05,399[mm:ss] (LogInTest.java:logIntest_In_toKohls:45) - extentReport start for logIntest
- INFO 2020-06-17 01:47:07,090[mm:ss] (LogInTest.java:logIntest_In_toKohls:47) - landed into kohls login page
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:26,735[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:26,735[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:26,735[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:26,736[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:28,447[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
 ]]></system-out>
   </testcase>
-  <testcase name="logIntest02" classname="testUnit.SmokeTest" time="7.826"/>
-  <testcase name="logIntest01" classname="testUnit.SmokeTest" time="7.048"/>
-  <testcase name="logIntest" classname="testUnit.SmokeTest" time="21.346"/>
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.137">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:55)
+]]></failure>
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:29,834[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:29,835[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:29,835[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:29,842[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:31,262[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
+]]></system-out>
+  </testcase>
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.063">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:55)
+]]></failure>
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:32,793[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:32,793[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:32,793[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:32,794[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:34,260[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
+]]></system-out>
+  </testcase>
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.054">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:55)
+]]></failure>
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:35,658[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:35,664[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:35,665[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:35,667[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:37,004[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
+]]></system-out>
+  </testcase>
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.193">
+    <failure message="invalid element state: Element is not currently interactable and may not be manipulated&#10;  (Session info: chrome=83.0.4103.106)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Mds-MacBook-Pro.home&apos;, ip: &apos;fe80:0:0:0:1c9e:b5f5:f39c:ad56%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}&#10;Session ID: c7f241467ab9e0e7836b1cbb41759822" type="org.openqa.selenium.InvalidElementStateException"><![CDATA[org.openqa.selenium.InvalidElementStateException: 
+invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:1c9e:b5f5:f39c:ad56%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
+Session ID: c7f241467ab9e0e7836b1cbb41759822
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:54)
+]]></failure>
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:38,616[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:38,617[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:38,617[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:38,617[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:40,074[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
+]]></system-out>
+  </testcase>
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.148">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:55)
+]]></failure>
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:41,663[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:41,670[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:41,670[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:41,671[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:43,178[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
+]]></system-out>
+  </testcase>
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.019">
+    <failure message="invalid element state: Element is not currently interactable and may not be manipulated&#10;  (Session info: chrome=83.0.4103.106)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Mds-MacBook-Pro.home&apos;, ip: &apos;fe80:0:0:0:1c9e:b5f5:f39c:ad56%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}&#10;Session ID: c7f241467ab9e0e7836b1cbb41759822" type="org.openqa.selenium.InvalidElementStateException"><![CDATA[org.openqa.selenium.InvalidElementStateException: 
+invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:1c9e:b5f5:f39c:ad56%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
+Session ID: c7f241467ab9e0e7836b1cbb41759822
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:54)
+]]></failure>
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:44,621[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:44,627[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:44,628[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:44,628[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:45,928[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
+]]></system-out>
+  </testcase>
+  <testcase name="logIntest_In_toKohls" classname="testUnit.LogInTest" time="2.198">
+    <failure message="invalid element state: Element is not currently interactable and may not be manipulated&#10;  (Session info: chrome=83.0.4103.106)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;Mds-MacBook-Pro.home&apos;, ip: &apos;fe80:0:0:0:1c9e:b5f5:f39c:ad56%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}&#10;Session ID: c7f241467ab9e0e7836b1cbb41759822" type="org.openqa.selenium.InvalidElementStateException"><![CDATA[org.openqa.selenium.InvalidElementStateException: 
+invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:1c9e:b5f5:f39c:ad56%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/j0/66hklvc12yv...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.106, webStorageEnabled: true}
+Session ID: c7f241467ab9e0e7836b1cbb41759822
+	at testUnit.LogInTest.logIntest_In_toKohls(LogInTest.java:54)
+]]></failure>
+    <system-out><![CDATA[ INFO 2020-06-17 22:32:47,503[mm:ss] (BaseTest.java:tearDown:135) - screen shot has taken
+ INFO 2020-06-17 22:32:47,503[mm:ss] (BaseTest.java:tearDown:138) - screen shot has attached to extents reports
+ INFO 2020-06-17 22:32:47,504[mm:ss] (BaseTest.java:tearDown:151) - extent report ended
+ INFO 2020-06-17 22:32:47,505[mm:ss] (LogInTest.java:logIntest_In_toKohls:51) - extentReport start for logIntest
+ INFO 2020-06-17 22:32:48,930[mm:ss] (LogInTest.java:logIntest_In_toKohls:53) - landed into kohls login page
+]]></system-out>
+  </testcase>
+  <testcase name="logIntest02" classname="testUnit.SmokeTest" time="10.514"/>
+  <testcase name="logIntest01" classname="testUnit.SmokeTest" time="6.154"/>
+  <testcase name="logIntest" classname="testUnit.SmokeTest" time="10.902"/>
 </testsuite>

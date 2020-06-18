@@ -9,7 +9,7 @@
       <class name="testUnit.LogInTest">
         <methods>
           <include name="tearDown"/>
-          <include name="logIntest_In_toKohls" invocation-numbers="8 9"/>
+          <include name="logIntest_In_toKohls" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
           <include name="testDown"/>
           <include name="setExtent"/>
           <include name="setUp"/>

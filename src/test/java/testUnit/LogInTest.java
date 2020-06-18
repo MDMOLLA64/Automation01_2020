@@ -5,16 +5,14 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import utilies.ReadDataProvider;
 
 public class LogInTest extends BaseTest {
 
@@ -37,11 +35,12 @@ public class LogInTest extends BaseTest {
 		// Profilelogin
 	}
 
+// this working fine so you can use this code read exel sheet
 	@Test(dataProvider = "login")
 	public void logIntest_In_toKohls(Object userId, Object Password) {
 
 		extentTest = extent.startTest("logIntest");
-		// loger = Logger.getLogger(BaseTest.class);
+		loger = Logger.getLogger(LogInTest.class);
 		loger.info("extentReport start for logIntest");
 		driver.get(prop.getProperty("kohlsLogInPageUrl"));
 		loger.info("landed into kohls login page");
@@ -60,7 +59,7 @@ public class LogInTest extends BaseTest {
 		FileInputStream f = null;
 		Object[][] data = null;
 		try {
-			f = new FileInputStream(new File("/Users/mdmolla/Downloads/ExeltestData.xlsx"));
+			f = new FileInputStream(new File("/Users/mdmolla/Downloads/KohlsTestData.xlsx"));
 			XSSFWorkbook book = new XSSFWorkbook(f);
 			XSSFSheet sheet = book.getSheetAt(0);
 			// XSSFCell cel=sheet.getRow(1).getCell(0);

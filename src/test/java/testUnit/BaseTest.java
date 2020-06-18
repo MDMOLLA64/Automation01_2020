@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -22,7 +23,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -37,6 +37,7 @@ import utilies.ReadPropFile;
 public class BaseTest {
 
 	public static WebDriver driver;
+
 	public static Logger loger;
 
 	public static ExtentReports extent;
@@ -102,6 +103,10 @@ public class BaseTest {
 			System.setProperty("webdriver.safari.driver", "/usr/bin/safaridriver");
 			driver = new SafariDriver();
 		}
+		
+		driver.get(prop.getProperty("kohlsLogInPageUrl"));
+//		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 		// log.info("landed into HomePage");
 		// driver.manage().window().maximize();
@@ -117,8 +122,7 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void getWebSite() {
-		
-	
+
 	}
 
 	@AfterMethod

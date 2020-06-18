@@ -26,5 +26,10 @@
 			<type>1</type>
 			<location>/Users/mdmolla/Downloads/ExeltestData.xlsx</location>
 		</link>
+		<link>
+			<name>KohlsTestData.xlsx</name>
+			<type>1</type>
+			<location>/Users/mdmolla/Downloads/KohlsTestData.xlsx</location>
+		</link>
 	</linkedResources>
 </projectDescription>
