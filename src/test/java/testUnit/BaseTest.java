@@ -19,12 +19,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -39,6 +37,7 @@ import utilies.ReadPropFile;
 public class BaseTest {
 
 	public static WebDriver driver;
+
 	public static Logger loger;
 
 	public static ExtentReports extent;
@@ -104,8 +103,8 @@ public class BaseTest {
 			System.setProperty("webdriver.safari.driver", "/usr/bin/safaridriver");
 			driver = new SafariDriver();
 		}
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 		// log.info("landed into HomePage");
 		// driver.manage().window().maximize();

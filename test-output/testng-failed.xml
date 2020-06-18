@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDriven.kohls.UiValidation">
+      <class name="testUnit.LogInTest">
         <methods>
           <include name="tearDown"/>
+          <include name="logIntest_In_toKohls" invocation-numbers="0 2"/>
           <include name="testDown"/>
           <include name="setExtent"/>
-          <include name="LogInto_Kholhs" invocation-numbers="1 2 3"/>
           <include name="setUp"/>
           <include name="reading_PropertyFile"/>
           <include name="getWebSite"/>
           <include name="endReport"/>
         </methods>
-      </class> <!-- dataDriven.kohls.UiValidation -->
+      </class> <!-- testUnit.LogInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

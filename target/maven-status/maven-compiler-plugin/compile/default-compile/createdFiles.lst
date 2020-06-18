@@ -1,4 +1,8 @@
 dataProviderUtility/Xls_Reader.class
 utilies/ReadPropFile.class
+pages/UserHomePage.class
+pages/LogInPage.class
+pages/LandingPage.class
+utilies/Helper.class
 dataProviderUtility/TestUtil.class
 utilies/ReadDataProvider.class

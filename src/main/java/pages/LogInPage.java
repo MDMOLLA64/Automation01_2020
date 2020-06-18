@@ -21,21 +21,23 @@ public class LogInPage {
 	@FindBy(id = "kiosk_loginPassword")
 	WebElement passwordbox;
 	@FindBy(id = "Profilelogin")
-	WebElement SignUp;
+	WebElement SignIn;
 
+	// p[text()='Our stores are now open!']
 	public void type_In_EmailBox(String values) {
-		Helper.myType(emailbox, values);
-
+		Helper.sendkeys(driver, emailbox, 5, values);
 	}
 
-	public void type_In_passwordBox(String values) {
-		Helper.myType(passwordbox, values);
+	public void type_In_passwordBox(String pass) {
+		Helper.sendkeys(driver, passwordbox, 5, pass);
 
 	}
 
 	public UserHomePage click_on_SubMittButton() {
-		Helper.clickOnElement(SignUp);
+		Helper.click_OnElement(driver, SignIn, 5);
+		// Helper.clickOnElement(SignIn);
 		return new UserHomePage(driver);
 
 	}
+
 }

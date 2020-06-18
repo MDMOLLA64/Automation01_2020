@@ -1,4 +1,4 @@
-package testUnit;
+package dataDriven.kohls;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,48 +10,41 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class LogInTest extends BaseTest {
+import testUnit.BaseTest;
+import utilies.Helper;
 
-	@Test(priority = 1, enabled = false) // url=kohls
-	public void logIntest_IntoKohls() {
+public class LogInJustUsingData extends BaseTest {
 
-		extentTest = extent.startTest("logIntest");
-		// loger = Logger.getLogger(BaseTest.class);
-		loger.info("extentReport start for logIntest");
-		driver.get(prop.getProperty("kohlsLogInPageUrl"));
-		loger.info("landed into kohls login page");
-		driver.findElement(By.id("kiosk_loginEmail")).clear();
-		driver.findElement(By.id("kiosk_loginEmail")).sendKeys("mollamd715@gmail.com");
-		loger.info("Email typed in Email box");
-		driver.findElement(By.id("kiosk_loginPassword")).sendKeys("Ruhulamin64");
-		loger.info("password typed in password box");
-		driver.findElement(By.id("Profilelogin")).click();
-		loger.info("clicked on submitt button");
-
-		// Profilelogin
-	}
-
-// this working fine so you can use this code read exel sheet
 	@Test(dataProvider = "login")
-	public void logIntest_In_toKohls(Object userId, Object Password) {
+	public void EndToEndTestUsingData(Object username, Object password) {
 
-		extentTest = extent.startTest("logIntest");
-		loger = Logger.getLogger(LogInTest.class);
+		extentTest = extent.startTest("EndToEndTestUsingData");
 		loger.info("extentReport start for logIntest");
-		driver.get(prop.getProperty("kohlsLogInPageUrl"));
-		loger.info("landed into kohls login page");
-		driver.findElement(By.id("kiosk_loginEmail")).clear();
-		driver.findElement(By.id("kiosk_loginEmail")).sendKeys(userId.toString());
-		loger.info("Email typed in Email box");
-		driver.findElement(By.id("kiosk_loginPassword")).sendKeys(Password.toString());
-		loger.info("password typed in password box");
-		driver.findElement(By.id("Profilelogin")).click();
-		loger.info("clicked on submitt button");
+		loger = Logger.getLogger(LogInJustUsingData.class);
 
+		driver.get(prop.getProperty("kohlsLogInPageUrl"));
+		loger.debug("landed in logIn page");
+		driver.findElement(By.id("kiosk_loginEmail")).sendKeys(username.toString());
+		loger.info("typed  email on input box ");
+		driver.findElement(By.id("kiosk_loginPassword")).sendKeys(password.toString());
+		driver.findElement(By.id("kiosk_loginEmail")).sendKeys(username.toString());
+		loger.info("typed  pass on input box ");
+		driver.findElement(By.id("Profilelogin")).click();
+		loger.info("clicked on sign in button");
+		// String usertext = driver
+		// .findElement(By.xpath("//a[@class='utility-item-link account
+		// utility-nav-wallet-svg']/div")).getText();
+		// loger.info(usertext);
+
+		// .click();
+		Helper.clickOnElement(driver.findElement(By.xpath("//div[@class='is-signed-in']")));
+		loger.info("clicked on account in button");
+		Helper.clickOnElement(driver.findElement(By.xpath("//a[contains(text(),'Sign Out')]")));
+		loger.info("clicked on signOut in button");
+		// .click();
 	}
 
 	@DataProvider(name = "login")

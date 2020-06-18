@@ -2,5 +2,6 @@ testUnit/LogInValidationTest.class
 testUnit/SmokeTest.class
 testUnit/ExtentReporterNG.class
 testUnit/LogInTest.class
+dataDriven/kohls/UiValidation.class
 testUnit/ListenToMyTestCases.class
 testUnit/BaseTest.class

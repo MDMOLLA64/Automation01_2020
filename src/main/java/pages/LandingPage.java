@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import utilies.Helper;
 
@@ -35,9 +36,15 @@ public class LandingPage {
 	// //div[text()=' SIGN IN ']
 
 	public LogInPage clickOn_SIGNUPButton() {
-		Helper.click_OnElement(driver, signUp, 5);
+		Helper.clickOnElement(signUp);
+		// Helper.click_OnElement(driver, signUp, 5);
 		return new LogInPage(driver);
-		
+
+	}
+
+	public void ElementVerify_account() {
+		Helper.verifyElement(account);
+		Assert.assertTrue(account.isDisplayed());
 
 	}
 }

@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import dataProviderUtility.TestUtil;
 
 public class LogInValidationTest extends BaseTest {
-	
+
 	@DataProvider
 	public Iterator<Object[]> getTestData() {
 		ArrayList<Object[]> testData = TestUtil.getDataFromExel();
