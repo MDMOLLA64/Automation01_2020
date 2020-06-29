@@ -10,9 +10,10 @@ public class SmokeTest {
 
 	}
 
-	public void logINTEST() {
-		System.out.println("PRIVATE BRANCH");
+	@Test
+	public void logOutTest() {
 
+		System.out.println("private2");
 	}
 
 }
