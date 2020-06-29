@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 import utilies.Helper;
 
 public class LogInPage {
@@ -15,30 +16,39 @@ public class LogInPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(id="kiosk_loginEmail")
+	@FindBy(id = "kiosk_loginEmail")
 	WebElement emailbox;
-	@FindBy(id="kiosk_loginPassword")
+	@FindBy(id = "kiosk_loginPassword")
 	WebElement passbox;
-	@FindBy(id="Profilelogin")
+	@FindBy(id = "Profilelogin")
 	WebElement signInButton;
-	
-	
+	@FindBy(id = "//*[@id=\"tr_phase2_ShoppingBg\"]/span[4]")
+	WebElement cartText;
+	// *[@id="tr_phase2_ShoppingBg"]/span[4]
+
 	public void getBaseURL() {
 		driver.get("https://www.kohls.com/myaccount/kohls_login.jsp");
-		
+
 	}
-	
-	public void typeEmail( String value) {
-		Helper.sendkeys(driver, emailbox, 5, value);
-		
+
+	public void typeEmail(String value) {
+		Helper.typeToinPutBox(emailbox, value);
+
 	}
-	public void typePasword( String value) {
-		Helper.sendkeys(driver, passbox, 5, value);
-		
+
+	public void typePasword(String value) {
+		Helper.typeToinPutBox(passbox, value);
+
 	}
+
 	public void clickONSignInButton() {
 		Helper.clickOnElement(signInButton);
-		
+
+	}
+
+	public void getCartText() {
+		Helper.getText(cartText);
+
 	}
 
 }

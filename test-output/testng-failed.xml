@@ -3,18 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDriven.kohls.LogIntoKohlsTest">
+      <class name="letsCodeIt.Practice.SeleGrid">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginTest" invocation-numbers="1 2"/>
-          <include name="testDown"/>
-          <include name="setExtent"/>
-          <include name="setUp"/>
-          <include name="reading_PropertyFile"/>
-          <include name="getWebSite"/>
-          <include name="endReport"/>
+          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- dataDriven.kohls.LogIntoKohlsTest -->
+      </class> <!-- letsCodeIt.Practice.SeleGrid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -23,13 +23,16 @@ public class LogIntoKohlsTest extends BaseTest {
 		loger = Logger.getLogger(LogIntoKohlsTest.class);
 
 		LogInPage loginpage = new LogInPage(driver);
+		loginpage.getBaseURL();
 		// loginpage.getBaseURL();
 		loginpage.typeEmail(username.toString());
 		loginpage.typePasword(password.toString());
 		loginpage.clickONSignInButton();
+		loginpage.getCartText();
 		
-		//driver.navigate().back();
-		//driver.navigate().forward();
+
+		// driver.navigate().back();
+		// driver.navigate().forward();
 	}
 
 	@DataProvider(name = "login")
@@ -44,11 +47,12 @@ public class LogIntoKohlsTest extends BaseTest {
 			// String v=cel.getStringCellValue();
 
 			int rn = sheet.getLastRowNum();
-			int cn = sheet.getRow(0).getLastCellNum();
+			int cn = sheet.getRow(1).getLastCellNum();
 			data = new Object[rn][cn];
 			for (int i = 1; i < rn; i++) {
 				for (int j = 0; j < cn; j++) {
 					XSSFCell cel = sheet.getRow(i).getCell(j);
+					System.out.println(sheet.getRow(i).getCell(j));
 					switch (cel.getCellType()) {
 					case XSSFCell.CELL_TYPE_NUMERIC: {
 						// System.out.println(cel.getNumericCellValue());
@@ -77,5 +81,7 @@ public class LogIntoKohlsTest extends BaseTest {
 
 		return data;
 	}
+
+//#####################syso###############
 
 }

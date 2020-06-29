@@ -14,9 +14,11 @@ import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import letsCodeIt.Practice.MyRetry;
+
 public class LogInTest extends BaseTest {
 
-	@Test(priority = 1, enabled = false) // url=kohls
+	@Test(retryAnalyzer = MyRetry.class, enabled = false) // @Test(priority = 1) // url=kohls
 	public void logIntest_IntoKohls() {
 
 		extentTest = extent.startTest("logIntest");
@@ -36,7 +38,7 @@ public class LogInTest extends BaseTest {
 	}
 
 // this working fine so you can use this code read exel sheet
-	@Test(dataProvider = "login")
+	@Test(dataProvider = "login", retryAnalyzer = MyRetry.class)
 	public void logIntest_In_toKohls(Object userId, Object Password) {
 
 		extentTest = extent.startTest("logIntest");

@@ -1,8 +1,10 @@
-dataProviderUtility/Xls_Reader.class
+pages/LogInPage.class
+dataProviderUtility/DataReader.class
+utilies/Helper.class
 utilies/ReadPropFile.class
 pages/UserHomePage.class
-pages/LogInPage.class
 pages/LandingPage.class
-utilies/Helper.class
 dataProviderUtility/TestUtil.class
+dataProviderUtility/Xls_Reader.class
+logInPage/LogInPage.class
 utilies/ReadDataProvider.class

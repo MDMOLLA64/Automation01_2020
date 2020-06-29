@@ -1,6 +1,8 @@
 /Users/mdmolla/eclipse-workspace/Automation01/src/test/java/testUnit/LogInTest.java
+/Users/mdmolla/eclipse-workspace/Automation01/src/test/java/dataDriven/kohls/ReadExelSheet_HardCoded.java
 /Users/mdmolla/eclipse-workspace/Automation01/src/test/java/testUnit/ListenToMyTestCases.java
 /Users/mdmolla/eclipse-workspace/Automation01/src/test/java/dataDriven/kohls/UiValidation.java
+/Users/mdmolla/eclipse-workspace/Automation01/src/test/java/dataDriven/kohls/LogIntoKohlsTest.java
 /Users/mdmolla/eclipse-workspace/Automation01/src/test/java/testUnit/LogInValidationTest.java
 /Users/mdmolla/eclipse-workspace/Automation01/src/test/java/testUnit/ExtentReporterNG.java
 /Users/mdmolla/eclipse-workspace/Automation01/src/test/java/testUnit/SmokeTest.java

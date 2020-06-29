@@ -3,5 +3,7 @@ testUnit/SmokeTest.class
 testUnit/ExtentReporterNG.class
 testUnit/LogInTest.class
 dataDriven/kohls/UiValidation.class
+dataDriven/kohls/LogIntoKohlsTest.class
 testUnit/ListenToMyTestCases.class
+dataDriven/kohls/ReadExelSheet_HardCoded.class
 testUnit/BaseTest.class

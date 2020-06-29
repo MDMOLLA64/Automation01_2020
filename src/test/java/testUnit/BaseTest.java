@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -103,8 +101,8 @@ public class BaseTest {
 			System.setProperty("webdriver.safari.driver", "/usr/bin/safaridriver");
 			driver = new SafariDriver();
 		}
-		
-		driver.get(prop.getProperty("kohlsLogInPageUrl"));
+
+		// driver.get(prop.getProperty("kohlsLogInPageUrl"));
 //		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 //		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
@@ -122,7 +120,7 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void getWebSite() {
-
+		System.out.println("before method executed");
 	}
 
 	@AfterMethod

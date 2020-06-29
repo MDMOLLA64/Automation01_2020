@@ -44,6 +44,11 @@ public class Helper {
 		new Select(element).selectByVisibleText(text);
 
 	}
+	
+	public static void typeToinPutBox(WebElement ele, String value) {
+	waitForElement(ele).clear();
+	waitForElement(ele).sendKeys(value);
+	}
 
 	public static void myType(WebElement ele, String value) {
 		ele.sendKeys(value);
