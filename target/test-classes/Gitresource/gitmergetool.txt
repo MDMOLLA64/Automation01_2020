@@ -1,2 +1,7 @@
 git merge conflict tutorial=https://www.youtube.com/watch?v=iCGrKFH2oeo&ab_channel=CoreySchafer
+                            https://www.sourcegear.com/diffmerge/webhelp/sec__git__mac.html
+                            https://twobitlabs.com/2011/08/install-diffmerge-git-mac-os-x/
+                            https://www.sourcegear.com/diffmerge/downloaded.php
+                            
+                            
 git command= git difftool ,git mergetool
