@@ -1,90 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28662" started-at="2020-06-27T00:45:53Z" finished-at="2020-06-27T00:46:22Z">
+  <suite name="Default suite" duration-ms="50" started-at="2020-06-29T04:30:01Z" finished-at="2020-06-29T04:30:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28662" started-at="2020-06-27T00:45:53Z" finished-at="2020-06-27T00:46:22Z">
-      <class name="letsCodeIt.Practice.UiClients_SmokeTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="setExtent" is-config="true" duration-ms="220" started-at="2020-06-27T00:45:53Z" finished-at="2020-06-27T00:45:53Z">
+    <test name="Default test" duration-ms="50" started-at="2020-06-29T04:30:01Z" finished-at="2020-06-29T04:30:01Z">
+      <class name="letsCodeIt.Practice.SmokeTest">
+        <test-method status="PASS" signature="brokenLinkTest()[pri:0, instance:letsCodeIt.Practice.SmokeTest@1bce4f0a]" name="brokenLinkTest" duration-ms="10" started-at="2020-06-29T04:30:01Z" finished-at="2020-06-29T04:30:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="reading_PropertyFile()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="reading_PropertyFile" is-config="true" duration-ms="42" started-at="2020-06-27T00:45:53Z" finished-at="2020-06-27T00:45:53Z">
+        </test-method> <!-- brokenLinkTest -->
+        <test-method status="PASS" signature="logOutTest()[pri:0, instance:letsCodeIt.Practice.SmokeTest@1bce4f0a]" name="logOutTest" duration-ms="3" started-at="2020-06-29T04:30:01Z" finished-at="2020-06-29T04:30:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reading_PropertyFile -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="setUp" is-config="true" duration-ms="2490" started-at="2020-06-27T00:45:53Z" finished-at="2020-06-27T00:45:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getWebSite()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="getWebSite" is-config="true" duration-ms="1" started-at="2020-06-27T00:45:56Z" finished-at="2020-06-27T00:45:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getWebSite -->
-        <test-method status="PASS" signature="mySitewebEle()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="mySitewebEle" duration-ms="864" started-at="2020-06-27T00:45:56Z" finished-at="2020-06-27T00:45:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mySitewebEle -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-06-27T00:45:56Z" finished-at="2020-06-27T00:45:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=mySitewebEle status=SUCCESS method=UiClients_SmokeTest.mySitewebEle()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="getWebSite()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="getWebSite" is-config="true" duration-ms="1" started-at="2020-06-27T00:45:56Z" finished-at="2020-06-27T00:45:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getWebSite -->
-        <test-method status="PASS" signature="solution_staleElementRefarenceExcep()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="solution_staleElementRefarenceExcep" duration-ms="10464" started-at="2020-06-27T00:45:56Z" finished-at="2020-06-27T00:46:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- solution_staleElementRefarenceExcep -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-27T00:46:07Z" finished-at="2020-06-27T00:46:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=solution_staleElementRefarenceExcep status=SUCCESS method=UiClients_SmokeTest.solution_staleElementRefarenceExcep()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="getWebSite()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="getWebSite" is-config="true" duration-ms="0" started-at="2020-06-27T00:46:07Z" finished-at="2020-06-27T00:46:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getWebSite -->
-        <test-method status="PASS" signature="workWithListOfWebelement()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="workWithListOfWebelement" duration-ms="11591" started-at="2020-06-27T00:46:07Z" finished-at="2020-06-27T00:46:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- workWithListOfWebelement -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-06-27T00:46:19Z" finished-at="2020-06-27T00:46:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=workWithListOfWebelement status=SUCCESS method=UiClients_SmokeTest.workWithListOfWebelement()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testDown()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="testDown" is-config="true" duration-ms="3175" started-at="2020-06-27T00:46:19Z" finished-at="2020-06-27T00:46:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:letsCodeIt.Practice.UiClients_SmokeTest@464bee09]" name="endReport" is-config="true" duration-ms="523" started-at="2020-06-27T00:46:22Z" finished-at="2020-06-27T00:46:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- letsCodeIt.Practice.UiClients_SmokeTest -->
+        </test-method> <!-- logOutTest -->
+      </class> <!-- letsCodeIt.Practice.SmokeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
